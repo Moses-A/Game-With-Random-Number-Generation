@@ -1,4 +1,4 @@
-// Magic 8 ball
+// Creation of a simple Magic 8 ball game
 // Author is Moses Arocha
 
 #include <iostream>
@@ -25,7 +25,7 @@ int main()
 			{
 				//String for User Questions	
 				cout << "\n What is your Question?" << endl;
-				getline (std::cin, userQuestions);
+				getline (cin, userQuestions);
 				cout << "\n So your question is, " << userQuestions << "\n";
 					// Where random number for question is generated
 					prediction = rand() % 20 + 1;         // random number between 1 and 20
@@ -112,7 +112,7 @@ int main()
 						}
 		
 				cout << "\n\nWould you like another fortune?[Y/N]\n";
-				cin >> restart;
+				cin >> restart; // no catch all function, user must insert char value
 
 					if (restart == 'n' || restart == 'N' || restart == 'NO' ||restart == 'No' || restart == 'no' || restart == 'nO')
 					{
