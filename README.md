@@ -1,2 +1,2 @@
 # Simple-Game-Using-Random-Number
-Basic C++ programming that embraces the use of random number generation
+A basic random Eight Ball C++ program that embraces the use of a psuedo-random number generation.
